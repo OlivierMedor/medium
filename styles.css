@@ -1,0 +1,130 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+/** {
+	outline: 1px solid red;
+}*/
+.top-header {
+	width: 85%;
+	height: 64px;
+	background: #FCFAFA;
+	position: absolute;
+    padding: 15px;
+    box-sizing: border-box;
+    
+		
+}
+.header-logo {
+	float: left;
+	
+}
+.logo {
+	text-align: left;
+	font-size: 27px;
+	margin: 0 auto;
+}
+.logo-two-box {
+	width: 20px;
+	margin: 0 45%;
+	height:40px;
+
+	float: left;
+
+}
+.metabar-logo {
+	margin: 0 auto;
+	
+}
+@media screen and (max-width: 900px) {
+    .logo-two-box {
+	display: none;
+}
+}
+
+
+.search-area {
+	height: 64px;
+	width: 15%;
+	background-color: #FDFDFD;
+	position: relative;
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+	.search-area {
+		display: none;
+	}
+}
+
+
+
+.search-circle {
+	height: 30px;
+	width: 30px;
+	background-color: white;
+	border: 1px solid grey;
+	border-radius: 100%;
+	float: left;
+	margin: 10px;
+}
+.signup-link {
+	width: 90px;
+	height: 40px;
+	float: left;
+	border-radius: 30%;
+	background-color: white;
+	box-sizing: border-box;
+	margin: 10px;
+	border:1px solid green;
+	
+}
+.sign-in-sign-up {
+	text-align: center;
+	color: #4D905A;
+	margin: 0 auto;
+}
+
+.image-holder {
+	background-size: cover;
+    background-position: 0px -170px;
+    width: 100%;
+    color: white;
+    height: 800px; 
+	background-image: url("https://d262ilb51hltx0.cloudfront.net/fit/t/1400/1120/gradv/29/81/55/1*B1eL_OwL8cU2qXf9hEsAdA.jpeg");
+}
+.footer-bar {
+	 position:fixed;
+    height:50px;
+    background-color: white;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+.pic-paragraph {
+	height: 500px;
+	width: 800px;
+	margin: -400 0 0 0;
+
+	float: right;
+}
+.second-h-tag {
+	font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+letter-spacing: -0.02em;
+font-weight: 300;
+font-style: normal;
+font-size: 32px;
+margin-left: -1.6px;
+line-height: 1.2;
+color: #B1A3A4;
+}
+.first-h-1 {
+	font-weight: 700;
+font-style: normal;
+font-size: 60px;
+margin-left: -3px;
+line-height: 1;
+letter-spacing: -0.04em;
+}
